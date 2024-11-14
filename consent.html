@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DocuSign Authorization Demo</title>
+</head>
+<body>
+    <button id="authorizeButton">Grant Access</button>
+    <script>
+        const authorizeButton = document.getElementById('authorizeButton');
+
+        authorizeButton.addEventListener('click', () => {
+            // Get the redirect_url and state from the URL query parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const redirectUri = urlParams.get('redirect_uri');
+            const state = urlParams.get('state');
+
+            // Hardcoded code parameter
+            const code = '4058d4d4f5e3523c1eda427632514c0de13164dd640f3af4f9245028d151ef774a4494a6a90ba495197b28ac95180ee7d113ce5d278c21918d8eb4ec64547d89';
+
+            // Construct the final redirect URL with the state and code parameters
+            const finalUrl = `${redirectUri}?state=${state}&code=${code}`;
+
+            // Redirect to the final URL
+            window.location.href = finalUrl;
+        });
+    </script>
+</body>
+</html>

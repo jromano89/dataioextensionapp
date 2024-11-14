@@ -1,0 +1,20 @@
+[
+  {
+    "EmployeeId": "111",
+    "FullName": "Jerrod Romano",
+    "StreetAddress": "809 Buck Ln",
+    "Phone": "555-111-3278"
+  },
+  {
+    "EmployeeId": "222",
+    "FullName": "Audrey Allen",
+    "StreetAddress": "807 Buck Ln",
+    "Phone": "555-608-1016"
+  },
+  {
+    "EmployeeId": "333",
+    "FullName": "Sam Signer",
+    "StreetAddress": "123 Main St",
+    "Phone": "111-222-3333"
+  }
+]
