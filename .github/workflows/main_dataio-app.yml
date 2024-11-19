@@ -59,4 +59,4 @@ jobs:
           app-name: 'DataIO-App'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A067C7FC8110492A864F8341C5FBD524 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F264A472FE64550AAC3F2C6CD5827B4 }}
