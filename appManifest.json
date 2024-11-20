@@ -29,8 +29,8 @@
 		  "clientId": "fb95ca22026a4f1f6d393e6c6fded6b9ae79046d98ad9b67804431461dce14576bc0f0f04515c1c14e1f9ce9df37583696780440c503dd8ade2a0abbbea17d5f",
 		  "clientSecret": "f7c5d529e06e6667638c4fe678180bd123b9098ef4eec81b441ad7c712da36bf1ab0f228c42a624c573e477448bfcb9e884ad5783dfcd950d52df72aa14a7498",
 		  "customConfig": {
-			"tokenUrl": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/oauth/token",
-			"authorizationUrl": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/oauth/authorize",
+			"tokenUrl": "https://dataio-app.azurewebsites.net/api/oauth/token",
+			"authorizationUrl": "https://dataio-app.azurewebsites.net/api/oauth/authorize",
 			"authorizationParams": {
 			  "access_type": "offline",
 			  "prompt": "consent"
@@ -64,7 +64,7 @@
 		"template": "DataIO.Version6.CreateRecord",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/dataio/createRecord"
+		  "uri": "https://dataio-app.azurewebsites.net/api/dataio/createRecord"
 		}
 	  },
 	  {
@@ -73,7 +73,7 @@
 		"template": "DataIO.Version6.PatchRecord",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/dataio/patchRecord"
+		  "uri": "https://dataio-app.azurewebsites.net/api/dataio/patchRecord"
 		}
 	  },
 	  {
@@ -82,7 +82,7 @@
 		"template": "DataIO.Version6.SearchRecords",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/dataio/searchRecords"
+		  "uri": "https://dataio-app.azurewebsites.net/api/dataio/searchRecords"
 		}
 	  },
 	  {
@@ -91,7 +91,7 @@
 		"template": "DataIO.Version6.GetTypeNames",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/dataio/getTypeNames"
+		  "uri": "https://dataio-app.azurewebsites.net/api/dataio/getTypeNames"
 		}
 	  },
 	  {
@@ -100,7 +100,7 @@
 		"template": "DataIO.Version6.GetTypeDefinitions",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "https://ts8tyd-ip-96-245-118-148.tunnelmole.net/api/dataio/getTypeDefinitions"
+		  "uri": "https://dataio-app.azurewebsites.net/api/dataio/getTypeDefinitions"
 		}
 	  }
 	],

@@ -75,7 +75,7 @@ router.post('/api/dataio/searchRecords', (req, res) => {
     });
 
     if (!matchingRecord) {
-        return res.status(404).json({ error: 'Record not found' });
+        return res.json({ records: [{ EmployeeId: "Error" }] });
     }
 
     const selectedRecord = attributesToSelect.reduce((acc, attr) => {
@@ -93,7 +93,7 @@ router.post('/api/dataio/createRecord', (req, res) => {
     let records = readData();
 
     if (records.some(record => record.EmployeeId == data.EmployeeId)) {
-        return res.status(400).json({ error: 'Record with this EmployeeId already exists' });
+        return res.json({ recordId: "Error" });
     }
 
     records.push(data);
